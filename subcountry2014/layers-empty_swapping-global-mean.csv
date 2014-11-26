@@ -1,0 +1,36 @@
+"targets","layer","name","description","fld_value","units","filename","clip_n_ship_disag","clip_n_ship_disag_description","layer_gl","path_in","rgns_in","fld_id_num","fld_id_chr","fld_category","fld_year","fld_val_num","fld_val_chr","file_exists","year_min","year_max","val_min","val_max","val_0to1","flds_unused","flds_missing","rows_duplicated","num_ids_unique","data_na"
+"ICO","ico_spp_extinction_status","IUCN extinction risk category for iconic species","International Union for Conservation of Nature (IUCN) Red List threat categories with aggregated species lists 
+
+Data sources:
+
+- [International Union for Conservation of Nature (IUCN)](http://www.iucnredlist.org/technical-documents/classification-schemes/threats-classification-scheme)
+","category","category","ico_spp_extinction_status_gl2014.csv","equal","global status was applied equally to all regions. ","ico_spp_extinction_status","~/github/ohi-global/eez2014/layers/ico_spp_extinction_status.csv","global","rgn_id",,"sciname",,"category",,TRUE,,,,,FALSE,,,,4,TRUE
+"ICO","ico_spp_popn_trend","IUCN population trend as a proxy for iconic species trend","International Union for Conservation of Nature (IUCN) Red List threat categories with aggregated species lists 
+
+Data sources:
+
+- [International Union for Conservation of Nature (IUCN)](http://www.iucnredlist.org/technical-documents/classification-schemes/threats-classification-scheme)
+","popn_trend","trend score","ico_spp_popn_trend_gl2014.csv","equal","global trends were applied equally to all regions.","ico_spp_popn_trend","~/github/ohi-global/eez2014/layers/ico_spp_popn_trend.csv","global","rgn_id",,"sciname",,"popn_trend",,TRUE,,,,,FALSE,,,,4,TRUE
+"NP","np_blast","Areas of observed blast (dynamite) fishing","The presence of destructive artisanal blast fishing (Reefs at Risk Revisited).
+
+Data sources:
+
+- [Reefs at Risk Revisited](www.wri.org/publication/reefs-at-risk-revisited) 
+","score","pressure score","np_blast_gl2014.csv","equal","global scores were applied equally to each region. ","np_blast","~/github/ohi-global/eez2014/layers/np_blast.csv","global","rgn_id",,,,"score",,TRUE,,,,,FALSE,,,,4,TRUE
+"NP","np_cyanide","Areas of observed poison fishing","The presence of destructive artisanal poison (cyanide) fishing (Reefs at Risk Revisited).
+
+Data sources:
+
+- [Reefs at Risk Revisited](www.wri.org/publication/reefs-at-risk-revisited) 
+","score","pressure score","np_cyanide_gl2014.csv","equal","global scores were applied equally to each region. ","np_cyanide","~/github/ohi-global/eez2014/layers/np_cyanide.csv","global","rgn_id",,,,"score",,TRUE,,,,,FALSE,,,,4,TRUE
+"pressures","fp_art_hb","High bycatch caused by artisanal fishing ","The presence of destructive artisanal blast and poison (cyanide) fishing (Reefs at Risk Revisited).
+
+Data sources:
+
+- [Reefs at Risk Revisited](www.wri.org/publication/reefs-at-risk-revisited) ","pressures.score","pressure score","fp_art_hb_gl2014.csv","equal","global pressures data were applied equally to all regions.","fp_art_hb","~/github/ohi-global/eez2014/layers/fp_art_hb.csv","global","rgn_id",,,,"pressures.score",,TRUE,,,,,FALSE,,,,4,TRUE
+"pressures","hd_subtidal_hb","High bycatch artisanal fishing practices as a proxy for subtidal hard bottom habitat destruction","The presence of destructive artisanal blast and poison (cyanide) fishing (Reefs at Risk Revisited).
+
+Data sources:
+
+- [Reefs at Risk Revisited](www.wri.org/publication/reefs-at-risk-revisited) ","value","pressure score","hd_subtidal_hb_gl2014.csv","equal","global pressures data were applied equally to all regions.","hd_subtidal_hb","~/github/ohi-global/eez2014/layers/hd_subtidal_hb.csv","global","rgn_id",,,,"value",,TRUE,,,,,FALSE,,,,4,TRUE
+"pressures CS","cs_habitat_extent","Habitat extent * rank, per Carbon Storage habitats","Habitat extent * habitat rank for Carbon Storage habitats: mangrove, saltmarsh and seagrass","km2","km^2","cs_habitat_extent_gl2014.csv","area_offshore_3nm","global habitat extent was applied to each region after weighting by each region's offshore area to 3nm. ","cs_habitat_extent","~/github/ohi-global/eez2014/layers/cs_habitat_extent.csv","global","rgn_id",,"habitat",,"km2",,TRUE,,,,,FALSE,,,,4,TRUE
